@@ -1,4 +1,60 @@
+:root {
+  --clear-blue: #EFF9F2;
+  --middle-blue: #739AB3;
+  --dark-blue: #2F2F3A;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    background-color: var(--clear-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--middle-blue);
+}
+
+#upper {
+  display: flex;
+  flex-direction: row;
+}
+
+aside, header {
+  text-align: center;
+}
+
+aside {
+  background-color: var(--dark-blue);
+  color: white;
+  margin: 0 0 0 0;
+}
+
+aside a {
+  color: white;
+}
+
+#header_main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--middle-blue);
+  color: var(--dark-blue);
+}
+
+header h1 {
+  color: var(--clear-blue);
+}
+
+header h2, header h3, header h4, header h5, header h6 {
+  color: var(--dark-blue);
+}
+
+main {
+  padding-left: 2em;
+}
+
+#profile-picture {
+  border-radius: 208px;
 }
