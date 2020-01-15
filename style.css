@@ -26,11 +26,21 @@ aside, header {
 aside {
   background-color: var(--dark-blue);
   color: white;
-  margin: 0 0 0 0;
+  max-width: 416px;
 }
 
 aside a {
   color: white;
+}
+
+#profile-picture {
+  border-radius: 208px;
+  width: 80%;
+  margin-top: 2em;
+}
+
+.competence {
+  padding: 0em 2em 0em 2em;
 }
 
 #header_main {
@@ -53,8 +63,4 @@ header h2, header h3, header h4, header h5, header h6 {
 
 main {
   padding-left: 2em;
-}
-
-#profile-picture {
-  border-radius: 208px;
 }
