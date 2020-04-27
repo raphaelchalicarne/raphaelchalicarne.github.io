@@ -29,10 +29,6 @@ aside {
   max-width: 416px;
 }
 
-aside a {
-  color: white;
-}
-
 #profile-picture {
   border-radius: 208px;
   width: 80%;
@@ -41,6 +37,21 @@ aside a {
 
 .competence {
   padding: 0em 2em 0em 2em;
+}
+
+#contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact-icons * {
+  margin: auto;
+  width: 50%;
+  transition: 200ms;
+}
+
+#contact-icons a:hover {
+  translate: -10px 10px;
 }
 
 #header_main {
