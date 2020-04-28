@@ -1,6 +1,8 @@
 :root {
   --clear-blue: #EFF9F2;
+  --clear-dark-blue: rgb(200, 211, 204);
   --middle-blue: #739AB3;
+  --middle-dark-blue: rgb(93, 125, 145);
   --dark-blue: #2F2F3A;
 }
 
@@ -70,6 +72,43 @@ header h1 {
 
 header h2, header h3, header h4, header h5, header h6 {
   color: var(--dark-blue);
+}
+
+#language-toggle {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: .25em 0 .25em 0;
+  border: thick solid var(--clear-blue);
+  border-radius: .5em;
+  width: min-content;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+#language-toggle a {
+  color: var(--clear-blue);
+  text-decoration-line: none;
+  padding: .5em;
+}
+
+#language-toggle a:hover {
+  background-color: hsla(0,0%, 81.2%, .25);
+}
+
+#language-toggle a:first-child {
+  border-right: medium solid var(--clear-blue);
+  background-color: var(--clear-blue);
+  color: var(--dark-blue);
+}
+
+#language-toggle a:first-child:hover {
+  background-color: hsla(0,0%, 81.2%, .25);
+}
+
+#language-toggle a:last-child {
+  border-left: medium solid var(--clear-blue);
+  /* background-color: var(--dark-dark-blue); */
 }
 
 main {
