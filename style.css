@@ -75,36 +75,37 @@ header h2, header h3, header h4, header h5, header h6 {
 }
 
 #language-buttons {
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   top: 1em;
   right: 1em;
 }
 
-.language-button {
-  font-family: 'Open Sans', sans-serif;
-  color: var(--clear-blue);
-  background-color: var(--middle-blue);
+#language-buttons button {
   border-top: thick solid var(--clear-blue);
   border-right: medium solid var(--clear-blue);
   border-bottom: thick solid var(--clear-blue);
   border-left: medium solid var(--clear-blue);
   transition-duration: 0.4s;
-
   float: left;
 }
 
-.language-button::-moz-selection { /* Code for Firefox */
-  color: var(--dark-blue);
-  background-color: var(--clear-blue);
-}
-
-.language-button::selection {
-  color: var(--dark-blue);
-  background-color: var(--clear-blue);
+.language-button {
+  color: var(--clear-blue);
+  background-color: var(--middle-blue);
 }
 
 .language-button:hover {
   background-color: hsla(0,0%, 81.2%, .25);
+}
+
+.language-button-selected {
+  color: var(--dark-blue);
+  background-color: var(--clear-blue);
+}
+
+.language-button-selected:hover {
+  background-color:  var(--clear-dark-blue);
 }
 
 #language-buttons button:first-child {
