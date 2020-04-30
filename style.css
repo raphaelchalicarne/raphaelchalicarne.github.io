@@ -74,6 +74,50 @@ header h2, header h3, header h4, header h5, header h6 {
   color: var(--dark-blue);
 }
 
+#language-buttons {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.language-button {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--clear-blue);
+  background-color: var(--middle-blue);
+  border-top: thick solid var(--clear-blue);
+  border-right: medium solid var(--clear-blue);
+  border-bottom: thick solid var(--clear-blue);
+  border-left: medium solid var(--clear-blue);
+  transition-duration: 0.4s;
+
+  float: left;
+}
+
+.language-button::-moz-selection { /* Code for Firefox */
+  color: var(--dark-blue);
+  background-color: var(--clear-blue);
+}
+
+.language-button::selection {
+  color: var(--dark-blue);
+  background-color: var(--clear-blue);
+}
+
+.language-button:hover {
+  background-color: hsla(0,0%, 81.2%, .25);
+}
+
+#language-buttons button:first-child {
+  border-radius: .5em 0 0 .5em;
+  border-left: thick solid var(--clear-blue);
+}
+
+#language-buttons button:last-child {
+  border-radius: 0 .5em .5em 0;
+  border-right: thick solid var(--clear-blue);
+}
+
+/* 
 #language-toggle {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -104,13 +148,13 @@ header h2, header h3, header h4, header h5, header h6 {
 
 #language-toggle a:first-child:hover {
   background-color: var(--clear-dark-blue);
-  /* background-color: hsla(0,0%, 81.2%, .25); */
+  // background-color: hsla(0,0%, 81.2%, .25);
 }
 
 #language-toggle a:last-child {
   border-left: medium solid var(--clear-blue);
-  /* background-color: var(--dark-dark-blue); */
-}
+  // background-color: var(--dark-dark-blue);
+} */
 
 main {
   padding-left: 2em;
