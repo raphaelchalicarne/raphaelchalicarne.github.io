@@ -103,7 +103,8 @@ header h2, header h3, header h4, header h5, header h6 {
 }
 
 #language-toggle a:first-child:hover {
-  background-color: hsla(0,0%, 81.2%, .25);
+  background-color: var(--clear-dark-blue);
+  /* background-color: hsla(0,0%, 81.2%, .25); */
 }
 
 #language-toggle a:last-child {
