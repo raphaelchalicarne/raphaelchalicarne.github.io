@@ -1,6 +1,8 @@
 :root {
   --clear-blue: #EFF9F2;
+  --clear-dark-blue: rgb(200, 211, 204);
   --middle-blue: #739AB3;
+  --middle-dark-blue: rgb(93, 125, 145);
   --dark-blue: #2F2F3A;
 }
 

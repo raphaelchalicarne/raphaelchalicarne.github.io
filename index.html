@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
 
-  <title>CV Raphaël Chalicarne</title>
+  <title tkey="title"></title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed&display=swap" rel="stylesheet"
     type="text/css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+  <script src="lang/lang.js" defer></script>
 
   <!-- Les trois lignes ci‑dessous sont un correctif pour que la sémantique
          HTML5 fonctionne correctement avec les anciennes versions de
@@ -37,7 +39,7 @@
       </div>
 
       <div class="competence" id="programming_languages">
-        <h4>PROGRAMMING LANGUAGES</h4>
+        <h4 tkey="programming_languages"></h4>
         <p>Python</p>
         <p>HTML</p>
         <p>CSS</p>
@@ -52,93 +54,70 @@
       <div class="competence" id="soft_skills">
         <h4>SOFT SKILLS</h4>
         <p>Design Thinking</p>
-        <p>Agile method (Scrum)</p>
+        <p tkey="agile_method"></p>
       </div>
 
       <div class="competence" id="languages">
-        <h4>LANGUAGES</h4>
-        <h5>ENGLISH</h5>
-        <p>C1 level</p>
+        <h4 tkey="languages-head"></h4>
+        <h5 tkey="english"></h5>
+        <p tkey="c1_level"></p>
         <p>Toefl ITP : 640</p>
 
-        <h5>GERMAN</h5>
-        <p>B1 level</p>
+        <h5 tkey="german"></h5>
+        <p tkey="b1_level"></p>
       </div>
     </aside>
 
     <div id="header_main">
       <header>
-        <h1>RAPHAËL CHALICARNE</h1>
-        <h2>Intern as a full-stack developer at MailPlus Australia</h2>
+        <h1 style="clear:both">RAPHAËL CHALICARNE</h1>
+        <h2 tkey="current_position"></h2>
       </header>
 
       <main>
         <!-- A compléter avec mes différentes expériences -->
         <article id="studies">
-          <h3>STUDIES</h3>
-          <p><strong>2017 - 2021</strong> : <a href="https://www.ec-lyon.fr/">École Centrale de Lyon</a> : Generalist
-            Engineering school</p>
-          <p><strong>2015 - 2017</strong> : <a href="https://www.faidherbe.org/pourquoi-faire-une-cpge">Lycée
-              Faidherbe</a>, Lille : Preparatory School</p>
+          <h3 tkey="studies"></h3>
+          <p tkey="studies_ec_lyon"></p>
+          <p tkey="studies_prepa"></p>
         </article>
 
         <article id="experiences">
-          <h3>EXPERIENCES</h3>
+          <h3 tkey="experiences"></h3>
           <div class="experience">
-            <h4>PROFESSIONAL EXPERIENCES</h4>
-            <p><strong>2019 - 2020</strong> (8 months) - <a
-                href="https://www.ec-lyon.fr/actualites/2019/centrale-digital-lab-boosteur-innovation">Centrale Digital
-                Lab</a> - Three 7-week projects
-              in the fields of artificial intelligence, big data, the web and the digital
-              economy :</p>
+            <h4 tkey="prof_experiences"></h4>
+            <p tkey="exp_mailplus"></p>
+            <p tkey="exp_cdl"></p>
             <ul>
-              <li><strong><a
-                    href="https://www.linkedin.com/posts/watcha-sas_innovationnumerique-bigdata-ia-activity-6581947511244640256-Wq7t">Watcha
-                    SAS</a></strong> (7 weeks) - Project on the study and implementation of
-                an end-to-end encryption solution for an enterprise messaging software.</li>
-              <li><strong><a href="https://www.linkedin.com/company/skilder-pro/">Skilder</a></strong> (7 weeks) -
-                Project of machine learning on the analysis of
-                vocal recordings.</li>
+              <li tkey="exp_watcha"></li>
+              <li tkey="exp_skilder"></li>
+              <li tkey="exp_serfim"></li>
             </ul>
-            <p><strong>2019</strong> (4 months) - <a href="https://www.lyonaeroports.com/">Lyon Airports</a> - Engineer
-              internship - Search for
-              digital tools to optimize the work of the Legal Department.
-              Development of the specifications for the implementation of an EDM.</p>
-            <p><strong>2018 - 2019</strong> (7 months) - Project sponsored by <a href="https://amadeus.com/">Amadeus</a>
-              - Development
-              of an application under Ionic 3 promoting tourism for the disabled</p>
-            <p><strong>2018</strong> (1 month) - <a href="https://www.tlv.fr/">TLV Healthcare</a> - Training course -
-              Production of
-              hospital electrical ducts</p>
+            <p tkey="exp_aeroportslyon"></p>
+            <p tkey="exp_amadeus"></p>
+            <p tkey="exp_tlv"></p>
           </div>
 
           <div class="experience">
-            <h4>ASSOCIATIVE EXPERIENCES</h4>
-            <p><strong>2018 - 2019</strong> (1 year) - Webmaster at the <a href="http://www.commuz.fr">Commuz'</a>
-              - (Responsible for the website and ticketing for the student musical
-              comedy shared by ECL and EM Lyon)</p>
-            <p><strong>2017 - 2018</strong> (1 year) - Responsible of the route taken at the <a
-                href="http://www.raid-ecl.fr">Raid Centrale
-                Lyon</a> (Two-day itinerant raid with 280
-              participants)</p>
-            <p><strong>2017 - 2018</strong> (1 year) - Communications Manager at the <a
-                href="https://www.facebook.com/BureauInternationalECL/">Bureau International
-                Centrale Lyon</a> (Organization of an integration week for foreign students)</p>
+            <h4 tkey="associative_experiences"></h4>
+            <p tkey="exp_commuz"></p>
+            <p tkey="exp_raid"></p>
+            <p tkey="exp_bi"></p>
           </div>
 
         </article>
 
         <article id="qualifications">
-          <h3>QUALIFICATIONS</h3>
-          <p>Scientific Baccalaureate, English European option, with honors</p>
-          <p>First Aid Training PSC1</p>
+          <h3 tkey="qualifications"></h3>
+          <p tkey="qual_bac"></p>
+          <p tkey="qual_psc1"></p>
         </article>
       </main>
     </div>
   </div>
 
   <footer>
-    <p>©Copyright 2020 by Raphaël Chalicarne. All rights reserved</p>
+    <p tkey="copyright"></p>
   </footer>
 
 </body>
