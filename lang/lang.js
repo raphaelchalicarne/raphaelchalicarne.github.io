@@ -1,6 +1,5 @@
 var langs = ['en', 'fr'];
 var langCode = '';
-var langJS = null;
 
 var translate = function (jsdata) {
 	document.querySelectorAll('[tkey]').forEach(function (node) {
