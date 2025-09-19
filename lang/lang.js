@@ -11,7 +11,7 @@ var translate = function (jsdata) {
 }
 
 
-langCode = navigator.language.substr(0, 2);
+langCode = navigator.language.substring(0, 2);
 
 if (langs.includes(langCode)) {
 	$.getJSON('lang/' + langCode + '.json', translate);
