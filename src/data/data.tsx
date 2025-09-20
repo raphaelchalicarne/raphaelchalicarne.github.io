@@ -105,20 +105,15 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    { label: "Location", text: "Victoria, BC", Icon: MapIcon },
-    { label: "Age", text: "29", Icon: CalendarIcon },
-    { label: "Nationality", text: "Canadian / Irish", Icon: FlagIcon },
+    { label: "Location", text: "Lyon, France", Icon: MapIcon },
+    { label: "Age", text: "28", Icon: CalendarIcon },
+    { label: "Nationality", text: "French", Icon: FlagIcon },
     {
       label: "Interests",
-      text: "Motorcycles, Muay Thai, Banjos",
+      text: "Cycling, Chess, Theater",
       Icon: SparklesIcon,
     },
-    { label: "Study", text: "University of Victoria", Icon: AcademicCapIcon },
-    {
-      label: "Employment",
-      text: "Instant Domains, inc.",
-      Icon: BuildingOffice2Icon,
-    },
+    { label: "Study", text: "École Centrale de Lyon", Icon: AcademicCapIcon },
   ],
 };
 
@@ -148,53 +143,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: "Frontend development",
-    skills: [
-      {
-        name: "React",
-        level: 9,
-      },
-      {
-        name: "Typescript",
-        level: 7,
-      },
-      {
-        name: "GraphQL",
-        level: 6,
-      },
-    ],
-  },
-  {
     name: "Backend development",
     skills: [
       {
-        name: "Node.js",
+        name: "Ruby on Rails",
         level: 8,
       },
       {
-        name: "Rust",
-        level: 5,
+        name: "JavaScript",
+        level: 7,
       },
       {
-        name: "Golang",
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: "Mobile development",
-    skills: [
-      {
-        name: "React Native",
-        level: 9,
-      },
-      {
-        name: "Flutter",
-        level: 4,
-      },
-      {
-        name: "Swift",
-        level: 3,
+        name: "PostgreSQL",
+        level: 7,
       },
     ],
   },
@@ -365,23 +326,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: "reachout@timbaker.me",
-      href: "mailto:reachout@timbaker.me",
+      text: "raphael.chalicarne@outlook.com",
+      href: "mailto:raphael.chalicarne@outlook.com",
     },
     {
       type: ContactType.Location,
-      text: "Victoria BC, Canada",
-      href: "https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z",
-    },
-    {
-      type: ContactType.Instagram,
-      text: "@tbakerx",
-      href: "https://www.instagram.com/tbakerx/",
+      text: "Lyon, France",
+      href: "https://www.openstreetmap.org/relation/120965",
     },
     {
       type: ContactType.Github,
-      text: "tbakerx",
-      href: "https://github.com/tbakerx",
+      text: "raphaelchalicarne",
+      href: "https://github.com/raphaelchalicarne",
+    },
+    {
+      type: ContactType.LinkedIn,
+      text: "raphael-chalicarne",
+      href: "https://www.linkedin.com/in/raphael-chalicarne/",
     },
   ],
 };
