@@ -10,17 +10,13 @@ import {
 import GithubIcon from "../components/Icon/GithubIcon";
 import LinkedInIcon from "../components/Icon/LinkedInIcon"
 import heroImage from "../images/header-background.webp";
-import porfolioImage1 from "../images/portfolio/portfolio-1.jpg";
-import porfolioImage2 from "../images/portfolio/portfolio-2.jpg";
-import porfolioImage3 from "../images/portfolio/portfolio-3.jpg";
-import porfolioImage4 from "../images/portfolio/portfolio-4.jpg";
-import porfolioImage5 from "../images/portfolio/portfolio-5.jpg";
-import porfolioImage6 from "../images/portfolio/portfolio-6.jpg";
-import porfolioImage7 from "../images/portfolio/portfolio-7.jpg";
-import porfolioImage8 from "../images/portfolio/portfolio-8.jpg";
-import porfolioImage9 from "../images/portfolio/portfolio-9.jpg";
-import porfolioImage10 from "../images/portfolio/portfolio-10.jpg";
-import porfolioImage11 from "../images/portfolio/portfolio-11.jpg";
+import chronobuses from "../images/portfolio/chronobuses.png";
+import weatherapp from "../images/portfolio/weatherapp.png";
+import environnement_5g from "../images/portfolio/environnement-5g.jpg";
+import musicharts from "../images/portfolio/musicharts.png";
+import dispo_velib_1 from "../images/portfolio/dispo_velib_1.png";
+import dispo_velib_2 from "../images/portfolio/dispo_velib_2.png";
+import f1_drivers from "../images/portfolio/f1_drivers.png";
 import photo_profil_Malt from "../images/photo_profil_Malt.png";
 import testimonialImage from "../images/testimonial.webp";
 import {
@@ -100,9 +96,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: photo_profil_Malt,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `After graduating from École Centrale Lyon in 2021, I worked for three years as a back-end developer for the French startup Omie. I specialized myself in Ruby on Rails. The projects I worked on included API development and integration, improvements to the Spree e-commerce interface and data model design.`,
   aboutItems: [
     { label: "Location", text: "Lyon, France", Icon: MapIcon },
     { label: "Age", text: "28", Icon: CalendarIcon },
@@ -165,70 +159,46 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: "Project title 1",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage1,
+    title: "Chronobuses",
+    description: "An interactive map displaying the direct coach lines in Europe.",
+    url: "https://raphaelchalicarne.github.io/chronobuses/",
+    image: chronobuses,
   },
   {
-    title: "Project title 2",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage2,
+    title: "Weather app",
+    description: "A simple web app showing the current weather and a picture of any city.",
+    url: "https://raphaelchalicarne.github.io/weather-app",
+    image: weatherapp,
   },
   {
-    title: "Project title 3",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage3,
+    title: "Environnement 5G",
+    description: "A blog about the environnemental impact of the 5G.",
+    url: "https://raphaelchalicarne.github.io/environnement-5g",
+    image: environnement_5g,
   },
   {
-    title: "Project title 4",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage4,
+    title: "Musicharts",
+    description: "A data visualisation about the music listening habits in Europe and South America.",
+    url: "https://observablehq.com/@raphaelchalicarne/musicharts?collection=@raphaelchalicarne/spotify",
+    image: musicharts,
   },
   {
-    title: "Project title 5",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage5,
+    title: "Disponibilité des stations Vélib sur une journée",
+    description: "A data visualisation about the Vélib' availability over a day.",
+    url: "https://observablehq.com/@raphaelchalicarne/disponibilite-des-stations-velib-sur-une-journee?collection=@raphaelchalicarne/velov",
+    image: dispo_velib_1,
   },
   {
-    title: "Project title 6",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage6,
+    title: "Stations vélos libre service Rio de Janeiro 🇧🇷 (temps réel)",
+    description: "An observable notebook showing the realtime availability of self-service bicycles in 28 cities.",
+    url: "https://observablehq.com/d/346e512bb80d06a4?collection=@raphaelchalicarne/velov",
+    image: dispo_velib_2,
   },
   {
-    title: "Project title 7",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage7,
-  },
-  {
-    title: "Project title 8",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage8,
-  },
-  {
-    title: "Project title 9",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage9,
-  },
-  {
-    title: "Project title 10",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage10,
-  },
-  {
-    title: "Project title 11",
-    description: "Give a short description of your project here.",
-    url: "https://reactresume.com",
-    image: porfolioImage11,
+    title: "F1 Drivers 1997 - 2025",
+    description: "An observable notebook showing the different teams in which competed the F1 drivers from 1997 to 2025.",
+    url: "https://observablehq.com/@raphaelchalicarne/f1-drivers-1997-2021?collection=@observablehq/industrial",
+    image: f1_drivers,
   },
 ];
 
